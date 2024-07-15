@@ -1,0 +1,41 @@
+.writeMessageContainer {
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 103%;
+}
+
+.writeMessageLeftContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--search-bar-background);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.messageInput {
+  flex-basis: 90%;
+  background-color: transparent;
+  color: #aaa;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+}
+
+.mic {
+  background-color: var(--chat-bubble-right);
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  /* padding: 1rem; */
+  border-radius: 50%;
+
+  /* transition: all; */
+}
