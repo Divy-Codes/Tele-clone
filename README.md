@@ -1,6 +1,7 @@
 ## Introduction
 - This is a demo project made as part of an assigment for Beyond Chats company.
 - I have implemented the dark and night mode along with an animation very similar to that of telegram.
+- I could not implement responsiveness or mobile mode because of the dearth of time.
 - It was all done on a very short notice. Hence I could not implement a lot of things I could have done otherwise. (See Note for Reviewer in the end for more)
 
 ## Take a Sneak Peak in to the project
