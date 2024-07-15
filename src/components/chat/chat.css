@@ -1,6 +1,15 @@
 .chatContainer {
   height: 100vh;
   width: 100%;
+}
+
+.lightBackground {
+  background-image: url('../../../public/telegramLight.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.darkBackground {
   background-image: url('../../../public/backgroundIcons.jpg');
   background-size: contain;
   background-repeat: repeat;
@@ -15,7 +24,6 @@
 
 .chatWrapper {
   height: 83vh;
-  /* height: 0%; */
   overflow-y: auto;
 }
 

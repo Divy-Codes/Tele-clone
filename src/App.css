@@ -9,14 +9,88 @@ body {
 .app {
   display: grid;
   grid-template-columns: 0.27fr 0.73fr;
-  gap: 1px;
 }
 
 .gridLeft {
   height: 100vh;
   overflow-y: auto;
+  border-right: 1px solid #999;
 }
 
 .gridLeft::-webkit-scrollbar {
   display: none;
+}
+
+/* ==========Toggle Theme Animation========= */
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* right: 0; */
+  height: 0;
+  width: 0;
+  /* background: linear-gradient(
+    to bottom right,
+    #111 0%,
+    #111 16.67%,
+    #222 33.33%,
+    #000 50%,
+    #000 100%
+  ); */
+  opacity: 0.9;
+  z-index: 9999;
+  pointer-events: none;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.lightTheme {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0%,
+    #eee 16.67%,
+    #ddd 33.33%,
+    #eee 50%,
+    #fff 100%
+  );
+}
+
+.darkTheme {
+  background: linear-gradient(
+    to bottom right,
+    #111 0%,
+    #111 16.67%,
+    #222 33.33%,
+    #000 50%,
+    #000 100%
+  );
+}
+
+@keyframes waveAnimation {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  /* 50% {
+    height: 200%;
+    width: 200%;
+    transform: translate(0, 0);
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 100%;
+    left: 100%;
+    transform: translate(200%, 200%);
+  } */
+  100% {
+    height: 300%;
+    width: 300%;
+  }
+}
+
+.wave-animate {
+  animation: waveAnimation 0.5s ease-in-out;
+  animation-fill-mode: forwards;
 }

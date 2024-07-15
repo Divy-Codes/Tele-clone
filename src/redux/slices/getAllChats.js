@@ -25,29 +25,6 @@ export const getAllChats = createAsyncThunk(
   }
 );
 
-// export const getSubscriptionStatus = createAsyncThunk(
-//   'channelInfo/getSubscriptionStatus',
-//   async (id, { getState }) => {
-//     try {
-//       const { data } = await axios.get('/subscriptions', {
-//         params: {
-//           part: 'snippet',
-//           forChannelId: id,
-//           mine: true,
-//         },
-//         headers: {
-//           Authorization: `Bearer ${getState().authObject.accessToken}`,
-//         },
-//       });
-//       return {
-//         subscriptionStatus: data.items.length !== 0,
-//       };
-//     } catch (error) {
-//       return { error: error.response.data };
-//     }
-//   }
-// );
-
 const allChatsSlice = createSlice({
   name: 'allChats',
   initialState: initialState,
