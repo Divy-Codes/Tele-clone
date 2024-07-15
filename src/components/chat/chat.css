@@ -4,12 +4,14 @@
 }
 
 .lightBackground {
+  /* background-image: url('../../../public/telegramLight.png'); */
   background-image: url('../../../public/telegramLight.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .darkBackground {
+  /* background-image: url('../../../public/backgroundIcons.jpg'); */
   background-image: url('../../../public/backgroundIcons.jpg');
   background-size: contain;
   background-repeat: repeat;
