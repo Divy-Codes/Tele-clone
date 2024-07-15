@@ -6,9 +6,22 @@
   --chat-bubble-right: #8774e1;
   --chat-bubble-left: #212121;
   --dark-text-color: #bbb;
+  --text-color: #bbb;
+  --secondary-text-color: #aaa;
+  --highlight: #555;
 }
 
-.[data-theme='light'] {
+[data-theme='light'] {
+  --search-bar-background: #fff;
+  --search-input-background: #fff;
+  --focus-outline: #777;
+  --chat-highlight: #aaa;
+  --chat-bubble-right: #e3fee0;
+  --chat-bubble-left: #fff;
+  --dark-text-color: #333;
+  --text-color: #222;
+  --secondary-text-color: #444;
+  --highlight: #ddd;
 }
 
 body,

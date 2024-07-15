@@ -18,18 +18,12 @@
   border-radius: 10px;
 }
 
-/* .chat:hover {
-  background-color: var(--chat-highlight);
-} */
-
 .chat:not(.active):hover {
   background-color: var(--chat-highlight);
 }
 
-/*  { */
-
 .active {
-  background-color: var(--chat-bubble-right);
+  background-color: #3390ec;
 }
 
 .profilePic {
@@ -49,6 +43,11 @@
 .userName {
   display: flex;
   flex-direction: column;
+  color: var(--text-color);
+}
+
+.active .userName {
+  color: #fff;
 }
 
 .lastMessage {
@@ -57,7 +56,7 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   font-weight: 400;
-  color: #aaa;
+  color: var(--secondary-text-color);
 }
 
 .active .lastMessage {
