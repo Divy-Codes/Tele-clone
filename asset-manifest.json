@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tele-clone/static/css/main.c38b7bf4.css",
+    "main.js": "/tele-clone/static/js/main.e48085ad.js",
+    "static/media/telegramLight.png": "/tele-clone/static/media/telegramLight.b80e4cec7fd74c1b56e9.png",
+    "static/media/backgroundIcons.jpg": "/tele-clone/static/media/backgroundIcons.e2e59d4e96a66a3dcb03.jpg",
+    "index.html": "/tele-clone/index.html",
+    "main.c38b7bf4.css.map": "/tele-clone/static/css/main.c38b7bf4.css.map",
+    "main.e48085ad.js.map": "/tele-clone/static/js/main.e48085ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c38b7bf4.css",
+    "static/js/main.e48085ad.js"
+  ]
+}
