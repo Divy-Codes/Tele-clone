@@ -1,7 +1,7 @@
 ## Introduction
 - Checkout the deployed app here :- https://divy-codes.github.io/tele-clone/
 - This is a demo project made as part of an assigment for Beyond Chats.
-- I have implemented the dark and night mode along with an animation very similar to that of telegram.
+- I have used **Redux Toolkit** for state management and have implemented the dark and night mode along with an animation very similar to that of telegram.
 - I could not implement responsiveness or mobile mode because of the paucity of time.
 - It was all done on a very short notice. Hence I could not implement a lot of things I could have done otherwise. (See Note for Reviewer in the end for more)
 
