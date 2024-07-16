@@ -5,11 +5,10 @@
 - I could not implement responsiveness or mobile mode because of the paucity of time.
 - It was all done on a very short notice. Hence I could not implement a lot of things I could have done otherwise. (See Note for Reviewer in the end for more)
 
-  ## Guidelines to Use the App
-  - The idea was not to make a fully functional chatting app but to render the UI (as the data was being fetched with API)
-  - Most of the buttons are dummy buttons except the toggle button on the top-right corner to toggle the theme.
+## Guidelines to Use the App
+- The idea was not to make a fully functional chatting app but to render the UI (as the data was being fetched with API)
+- Most of the buttons are dummy buttons except the toggle button on the top-right corner to toggle the theme.
  
-  
 
 ## Take a Sneak Peak in to the project
 **Here's a small Video of the project**
